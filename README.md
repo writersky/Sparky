@@ -5,6 +5,7 @@ A simple log notifier using SMTP. Sparky fetches *only* yesterday's log and send
 Configuration
 ==============
 - Open up config.inc.php and add your SMTP configuration in.
+
 ```
 <?php
 /* Mailer Settings */
@@ -16,6 +17,7 @@ $_config['mailer_password'] = 'helloworld!';                           // The us
 $_config['log_dir'] = '';
 $_config['recipient']       = 'support@writersky.com';                  //The user to receive this mail
 ?>
+
 ```
 - Create a cron job that runs nightly. 
 
