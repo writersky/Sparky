@@ -9,13 +9,17 @@ Configuration
 ```
 <?php
 /* Mailer Settings */
-$_config['mailer_host']     = 'ssl://smtp.writersky.com';              
+$_config['mailer_host']     = 'ssl://smtp.yourdomain.com';              
 $_config['mailer_port']     = 465;                                     // 465 for SSL
-$_config['mailer_username'] = 'sparky@writersky.com';                  // The user you want to send as
+$_config['mailer_username'] = 'sparky@yourdomain.com';                 // The user you want to send as
 $_config['mailer_password'] = 'helloworld!';                           // The user password 
 
+/* Sender/recipient config */
+$_config['sender_name']     = 'Sparky';                                // Name of the Sender
+$_config['recipient']       = 'support@yourdomain.com';                //The user to receive this mail
+
+/* Relative to the script path, the log file where you want to save, leave it empty if you don't know what to do */
 $_config['log_dir'] = '';
-$_config['recipient']       = 'support@writersky.com';                  //The user to receive this mail
 ?>
 
 ```
