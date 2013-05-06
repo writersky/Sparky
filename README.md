@@ -27,7 +27,7 @@ $_config['log_dir'] = '';
 
 Contributing
 ============
-Please open up a ticket and submit changes through pull requests. Log title "sparky-#: title", and a brief summary on what the changes are.
+Please open up a ticket and submit changes through pull requests. Log a meaningful title, and a brief summary on what the changes are.
 
 
 Authors
